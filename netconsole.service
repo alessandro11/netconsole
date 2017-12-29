@@ -1,0 +1,11 @@
+[Unit]
+Description=Setup kernel netconsole
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/setup-netconsole.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

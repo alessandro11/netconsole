@@ -1,0 +1,9 @@
+HOST="dell"
+IFACE='br10'
+SRC_IP='10.128.1.253'
+SRC_PORT='6665'
+
+DST_IP='10.128.1.1'
+DST_PORT='6666'
+DST_MAC='f0:4d:a2:6e:7f:b9'
+
